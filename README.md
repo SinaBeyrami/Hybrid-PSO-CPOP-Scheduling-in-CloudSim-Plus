@@ -2,7 +2,9 @@
 
 Particle Swarm Optimization (PSO) meets a CPOP-style baseline to schedule DAG workloads on edge/cloud resources, implemented on top of **CloudSim Plus**. This project generates random DAGs, assigns realistic deadlines, runs simulations, and compares **PSO** against a **Random-CPOP** baseline across makespan, energy, deadline-miss ratio, and QoS. It also plots fitness and comparison charts via **JFreeChart**.
 
-> A short Persian write-up summarizing the second phase (adding PSO and comparing to Random-CPOP) is included; see `Phase-2-Report.pdf` (uploaded here as a PDF). Highlights: PSO generally lowers **makespan** and **energy** versus Random-CPOP, improves **QoS**, but can raise **miss ratio** in tightly constrained graphs, especially with very few VMs.&#x20;
+> A short Persian write-up summarizing the second phase (adding PSO and comparing to Random-CPOP) is included; see `Phase-2-Report.pdf`.
+
+Highlights: PSO generally lowers **makespan** and **energy** versus Random-CPOP, improves **QoS**, but can raise **miss ratio** in tightly constrained graphs, especially with very few VMs.&#x20;
 
 ---
 
